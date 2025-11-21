@@ -1,7 +1,7 @@
 import { Box, Button, Container, Grid, Stack, Typography } from '@mui/material';
-import Header from '../common/Header';
-import BookingForm from './BookingForm';
-import Footer from '../common/Footer';
+import Header from '../../components/guest/common/Header';
+import BookingForm from '../../components/guest/home/BookingForm';
+import Footer from '../../components/guest/common/Footer';
 import HeroImage from '../../../assets/Home.jpg';
 
 export default function Home() {

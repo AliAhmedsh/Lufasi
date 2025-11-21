@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import Home from '../components/guest/home/Home';
+import Home from '../pages/guest/Home';
 
 export default function GuestRoutes() {
   return (

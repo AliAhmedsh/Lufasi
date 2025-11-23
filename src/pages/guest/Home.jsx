@@ -2,7 +2,7 @@ import { Box, Button, Container, Grid, Stack, Typography } from '@mui/material';
 import Header from '../../components/guest/common/Header';
 import BookingForm from '../../components/guest/home/BookingForm';
 import Footer from '../../components/guest/common/Footer';
-import HeroImage from '../../../assets/Home.jpg';
+import HeroImage from '../../assets/Home.jpg';
 
 export default function Home() {
   return (
@@ -65,7 +65,7 @@ export default function Home() {
                     sx={{
                       bgcolor: '#C59B5F',
                       '&:hover': { bgcolor: '#b78b4e' },
-                      borderRadius: 999,
+                      borderRadius: 2,
                       px: 3.5,
                       py: 1.1,
                       textTransform: 'none',
@@ -77,7 +77,7 @@ export default function Home() {
                   <Button
                     variant="outlined"
                     sx={{
-                      borderRadius: 999,
+                      borderRadius: 2,
                       borderColor: 'rgba(255,255,255,0.9)',
                       color: '#FFFFFF',
                       px: 3.5,

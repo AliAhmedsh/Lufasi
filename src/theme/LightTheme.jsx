@@ -11,11 +11,21 @@ const LightTheme = createTheme({
       main: '#0C4A34',
       contrastText: '#FFFFFF',
     },
+    secondary: {
+      main: '#00A58C',
+      contrastText: '#FFFFFF',
+    },
     text: {
       primary: '#FFFFFF',
       secondary: '#D1FAE5',
     },
     divider: 'rgba(255, 255, 255, 0.18)',
+    booking: {
+      teal: '#00A58C',
+      tealLight: '#00C2A3',
+      buttonStart: '#D6B56B',
+      buttonEnd: '#B88A43',
+    },
   },
   typography: {
     fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
